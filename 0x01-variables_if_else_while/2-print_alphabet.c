@@ -2,23 +2,22 @@
 
 
 /**
-*main -> Write a program that prints the alphabet in lowercase,
-*followed by a new line
-*Return value : 0
+*main -> program entry point
+*
+*Return value : 0 indicates success
 */
 int main(void)
 {
 
+	char alphabet;
 
-	int ch;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 
-	for (ch = 97; ch <= 122; ch++)
+	{
+		putchar(alphabet);
+	}
 
-	{	
-		putchar(ch);
-	}	
-
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
