@@ -10,11 +10,13 @@ int main(void)
 {
 
 
-char ch = '[a-z]';
+	int ch;
 
-putchar(ch);
+	for (ch = 97; ch <= 122; ch++)
 
-printf("\n");
+		putchar(ch);
 
-return (0);
+	putchar("\n");
+
+	return (0);
 }
